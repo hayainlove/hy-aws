@@ -1,0 +1,4 @@
+user_id,userName,email,fullName,phoneNumber,accountStatus,createdAt,updatedAt
+9de9fbd2-2d2a-4efa-9cf2-92b8e9951789,bobsmith,bob@example.com,Bob Smith,,,2025-12-20T02:49:44.651843+00:00,2025-12-20T02:49:44.651843+00:00
+3a54cb88-4574-4bd8-9ea4-3c882e3f8508,janedoe,jane@example.com,Jane Doe,,,2025-12-20T02:49:44.359678+00:00,2025-12-20T02:49:44.359678+00:00
+30910629-c95e-4188-ad5a-f4026ab601a7,johndoe,john@example.com,John Doe,,,2025-12-20T02:49:43.899533+00:00,2025-12-20T02:49:43.899533+00:00

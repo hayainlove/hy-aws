@@ -1,0 +1,1 @@
+{"statusCode": 200, "body": "{\"message\": \"CreateUserFunction invoked\", \"input\": {\"email\": \"bob@example.com\", \"userName\": \"bob\"}}"}

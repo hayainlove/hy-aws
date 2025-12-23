@@ -1,0 +1,47 @@
+{
+  "Records": [
+    {
+      "eventID": "test-event-id",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "ap-southeast-1",
+      "dynamodb": {
+        "Keys": {
+          "user_id": {
+            "S": "test-trigger-id"
+          }
+        },
+        "NewImage": {
+          "user_id": {
+            "S": "test-trigger-id"
+          },
+          "email": {
+            "S": "test@trigger.com"
+          },
+          "userName": {
+            "S": "testtrigger"
+          },
+          "firstName": {
+            "S": "Test"
+          },
+          "lastName": {
+            "S": "Trigger"
+          },
+          "status": {
+            "S": "ACTIVE"
+          },
+          "createdAt": {
+            "S": "2025-12-18T00:00:00.000000+00:00"
+          },
+          "updatedAt": {
+            "S": "2025-12-18T00:00:00.000000+00:00"
+          }
+        },
+        "SequenceNumber": "111",
+        "SizeBytes": 26,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      }
+    }
+  ]
+}
