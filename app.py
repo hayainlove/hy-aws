@@ -7,6 +7,7 @@ sys.path.append(os.path.dirname(__file__))
 
 from my_hayati_phase2.application_stack import MyHayatiApplicationStack
 from my_hayati_phase2.infrastructure_stack import MyHayatiInfrastructureStack
+from my_hayati_phase2.pipeline_stack import MyHayatiPipelineStack
 
 app = cdk.App()
 
@@ -29,5 +30,11 @@ app_stack = MyHayatiApplicationStack(
 
 # Ensure application stack depends on infrastructure stack
 app_stack.add_dependency(infra_stack)
+
+# Deploy CI/CD pipeline stack
+pipeline_stack = MyHayatiPipelineStack(
+    app,
+    "MyHayatiPipelineStack",
+)
 
 app.synth()
